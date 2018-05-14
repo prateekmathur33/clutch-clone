@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <style>
+        body{
+background:#e2e2e2;
+font-family:Arial;
+}
+
+.swing{
+-webkit-perspective: 500;
+-moz-perspective: 500;
+-o-perspective: 500;
+perspective: 500;
+margin:60px auto;
+display:block;
+text-align:center;
+width:400px; 
+
+}
+
+.hover {
+
+position: relative; z-index:1;
+-webkit-transition:all 250ms ease;
+-moz-transition:all 250ms ease;
+-o-transition:all 250ms ease;
+transition:all 250ms ease;
+background: #00aced; padding: 15px;
+display: block; 
+
+margin:0 8px;
+color: #fff; 
+text-decoration: none;
+text-align:center;
+padding:40px;
+font-size:30px;
+
+}
+
+.hover:hover{
+-webkit-transform-origin: top;
+-moz-transform-origin: top;
+-o-transform-origin: top;
+-ms-transform-origin: top;
+transform-origin: top;
+
+-webkit-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+-moz-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+-ms-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+-o-animation: balance 1.5s ease-in-out 110ms 1 alternate;
+animation: balance 1.5s ease-in-out 110ms 1 alternate;
+}
+
+ 
+
+@keyframes balance {
+0% {
+}
+15% {
+-webkit-transform: rotateX(-50deg);
+-moz-transform: rotateX(-50deg);
+-o-transform: rotateX(-50deg);
+-ms-transform: rotateX(-50deg);
+transform: rotateX(-50deg);
+}
+30% {
+-webkit-transform: rotateX(-100deg);
+-moz-transform: rotateX(-100deg);
+-o-transform: rotateX(-100deg);
+-ms-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+
+}
+45% {
+    -webkit-transform: rotateX(-100deg);
+-moz-transform: rotateX(-100deg);
+-o-transform: rotateX(-100deg);
+-ms-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+}
+60% {
+    -webkit-transform: rotateX(-100deg);
+-moz-transform: rotateX(-100deg);
+-o-transform: rotateX(-100deg);
+-ms-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+}
+75% {
+    -webkit-transform: rotateX(-100deg);
+-moz-transform: rotateX(-100deg);
+-o-transform: rotateX(-100deg);
+-ms-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+}
+100% {
+    -webkit-transform: rotateX(-100deg);
+-moz-transform: rotateX(-100deg);
+-o-transform: rotateX(-100deg);
+-ms-transform: rotateX(-100deg);
+transform: rotateX(-100deg);
+position: relative;
+top: -999px;
+opacity: 0;
+height: 0;
+max-height: 0;
+}
+
+}
+
+@-moz-keyframes balance {
+0% {
+}
+15% {
+
+-moz-transform: rotateX(-50deg);
+transform: rotateX(-50deg);
+}
+30% {
+-moz-transform: rotateX(50deg);
+transform: rotateX(50deg);
+}
+45% {
+
+-moz-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+60% {
+
+-moz-transform: rotateX(30deg);
+transform: rotateX(30deg);
+}
+75% {
+
+-moz-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+100% {
+
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+
+}
+
+@-webkit-keyframes balance {
+0% {
+
+}
+15% {
+
+-webkit-transform: rotateX(-50deg);
+transform: rotateX(-50deg);
+}
+30% {
+
+-webkit-transform: rotateX(50deg);
+transform: rotateX(50deg);
+}
+45% {
+
+-webkit-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+60% {
+
+-webkit-transform: rotateX(30deg);
+transform: rotateX(30deg);
+}
+75% {
+
+-webkit-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+100% {
+-webkit-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+
+}
+
+@-ms-keyframes balance {
+0% {
+margin-top: 0;
+}
+15% {
+margin-top: 0;
+-ms-transform: rotateX(-50deg);
+transform: rotateX(-50deg);
+}
+30% {
+margin-top: 0;
+-ms-transform: rotateX(50deg);
+transform: rotateX(50deg);
+}
+45% {
+
+-ms-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+60% {
+
+-ms-transform: rotateX(30deg);
+transform: rotateX(30deg);
+}
+75% {
+
+-ms-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+100% {
+
+-ms-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+
+}
+
+@-o-keyframes balance {
+0% {
+margin-top: 0;
+}
+15% {
+-o-transform: rotateX(-50deg);
+transform: rotateX(-50deg);
+}
+30% {
+margin-top: 0;
+-o-transform: rotateX(50deg);
+transform: rotateX(50deg);
+}
+45% {
+-o-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+60% {
+-o-transform: rotateX(30deg);
+transform: rotateX(30deg);
+}
+75% {
+
+-o-transform: rotateX(-30deg);
+transform: rotateX(-30deg);
+}
+100% {
+
+-o-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+
+}
+    </style>
+</head>
+
+<body>
+    <div class="swing">
+  <div class="hover">Coding Droid</div>
+</div>
+</body>
+
+</html>
