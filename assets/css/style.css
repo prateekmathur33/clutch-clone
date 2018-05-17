@@ -174,8 +174,7 @@ input {
 	line-height: normal
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"]{
 	box-sizing: border-box;
 	padding: 0
 }

@@ -215,67 +215,108 @@
       </div>
       
 <div class="form-container">
-    <h3 class="first">Form</h3>
+    <h3 class="first">Review</h3>
 
-        <form method="post" action="#">
-            <div class="row uniform">
-               <!-- <div class="6u 12u$(xsmall)">
-                    <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+    <form method="post" action="#">
+        <!-- progressbar -->
+        <ul id="progressbar">
+            <li class="active">Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Step 4</li>
+        </ul>
+        <div class="row uniform">
+            <!-- <div class="6u 12u$(xsmall)">
+                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+            </div>
+            <div class="6u$ 12u$(xsmall)">
+                <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+            </div>
+            <!-- Break -->
+            <div class="12u$">
+                <div class="select-wrapper">
+                    <label for="tdemo-category">Select the type of Category*</label>
+                    <select name="demo-category" id="demo-category" required>
+                        <option value="">- Select -</option>
+                        <option value="1">Manufacturing</option>
+                        <option value="1">Shipping</option>
+                        <option value="1">Administration</option>
+                        <option value="1">Human Resources</option>
+                    </select>
                 </div>
-                <div class="6u$ 12u$(xsmall)">
-                    <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+            </div>
+            <!-- Break -->
+            <div class="6u 12u$(xsmall)" style="width:100%;">
+                <label for="title">Project Title*</label>
+                    <input type="text" name="title" id="title" value="" placeholder="Project Title" required/>
+            </div>
+
+            <div class="12u$">
+                <div class="select-wrapper">
+                    <label for="industry">Select the Industry</label>
+                    <select name="industry" id="industry" required>
+                        <option value="">- Select -</option>
+                        <option value="1">Manufacturing</option>
+                        <option value="1">Shipping</option>
+                        <option value="1">Administration</option>
+                        <option value="1">Human Resources</option>
+                    </select>
                 </div>
-                <!-- Break -->
-                <div class="12u$">
-                    <div class="select-wrapper">
-                        <label for="tdemo-category">Select the type of Category*</label>
-                        <select name="demo-category" id="demo-category" required>
-                            <option value="">- Select -</option>
-                            <option value="1">Manufacturing</option>
-                            <option value="1">Shipping</option>
-                            <option value="1">Administration</option>
-                            <option value="1">Human Resources</option>
-                        </select>
+            </div>
+            <!--break-->
+            <div class="12u$">
+                <div class="select-wrapper">
+                    <label for="costrange">Cost Range</label>
+                    <select name="costrange" id="costrange" required>
+                        <option value="">- Select -</option>
+                        <option value="">Less than 10000</option>
+                        <option value="1">10000-49999</option>
+                        <option value="1">50000-199999</option>
+                        <option value="1">200000-999999</option>
+                        <option value="1">1000000-10000000</option>
+                    </select>
+                </div>
+            </div>
+            <div style="width:100%;float: left;">      
+                    <div class="12u$">
+                        <label>Project start*</label>
+                        <div class="select-wrapper projectstart" style="width:40%;">
+                            <label for="smonth">Month</label>
+                                <select name="smonth" id="smonth" required>
+                                    <option value="">- Select -</option>
+                                    <option value="">January</option>
+                                    <option value="1">Februray</option>
+                                    <option value="1">March</option>
+                                    <option value="1">April</option>
+                                    <option value="1">May</option>
+                                    <option value="1">June</option>
+                                    <option value="1">July</option>
+                                    <option value="1">August</option>
+                                    <option value="1">September</option>
+                                    <option value="1">October</option>
+                                    <option value="1">November</option>
+                                    <option value="1">December</option>
+                                    
+                                </select>
+                        </div>
+                        <div class="select-wrapper projectstart" style="width:40%;">
+                            <label for="syear">Year</label>
+                                <select name="syear" id="syear" required>
+                                    <option value="">- Select -</option>
+                                    <option value="">2015</option>
+                                    <option value="1">2016</option>
+                                    <option value="1">2017</option>
+                                    <option value="1">2018</option>                                    
+                                </select>
+                        </div>
                     </div>
                 </div>
-                <!-- Break -->
-                <div class="6u 12u$(xsmall)" style="width:100%;">
-                    <label for="title">Project Title*</label>
-                        <input type="text" name="title" id="title" value="" placeholder="Project Title" required/>
-                </div>
-
-                <div class="12u$">
-                    <div class="select-wrapper">
-                        <label for="industry">Select the Industry</label>
-                                <select name="industry" id="industry" required>
-                                    <option value="">- Select -</option>
-                                    <option value="1">Manufacturing</option>
-                                    <option value="1">Shipping</option>
-                                    <option value="1">Administration</option>
-                                    <option value="1">Human Resources</option>
-                                </select>
-                            </div>
-                        </div>
-                        <!--break-->
+                <div style="width:100%;float: left;">      
                         <div class="12u$">
-                                <div class="select-wrapper">
-                                    <label for="costrange">Cost Range</label>
-                                            <select name="costrange" id="costrange" required>
-                                                <option value="">- Select -</option>
-                                                <option value="">Less than 10000</option>
-                                                <option value="1">10000-49999</option>
-                                                <option value="1">50000-199999</option>
-                                                <option value="1">200000-999999</option>
-                                                <option value="1">1000000-10000000</option>
-                                            </select>
-                                    </div>
-                                </div>
-                    <div style="width:100%;float: left;">      
-                         <div class="12u$">
-                                <label>Project start*</label>
+                                <label>Project end*</label>
                                 <div class="select-wrapper projectstart" style="width:40%;">
-                                    <label for="smonth">Month</label>
-                                        <select name="smonth" id="smonth" required>
+                                    <label for="emonth">Month</label>
+                                        <select name="emonth" id="emonth" required>
                                             <option value="">- Select -</option>
                                             <option value="">January</option>
                                             <option value="1">Februray</option>
@@ -293,8 +334,8 @@
                                         </select>
                                 </div>
                                 <div class="select-wrapper projectstart" style="width:40%;">
-                                    <label for="syear">Year</label>
-                                        <select name="syear" id="syear" required>
+                                    <label for="eyear">Year</label>
+                                        <select name="eyear" id="eyear" required>
                                             <option value="">- Select -</option>
                                             <option value="">2015</option>
                                             <option value="1">2016</option>
@@ -304,214 +345,16 @@
                                 </div>
                             </div>
                     </div>
-                    <div style="width:100%;float: left;">      
-                            <div class="12u$">
-                                   <label>Project end*</label>
-                                   <div class="select-wrapper projectstart" style="width:40%;">
-                                       <label for="emonth">Month</label>
-                                           <select name="emonth" id="emonth" required>
-                                               <option value="">- Select -</option>
-                                               <option value="">January</option>
-                                               <option value="1">Februray</option>
-                                               <option value="1">March</option>
-                                               <option value="1">April</option>
-                                               <option value="1">May</option>
-                                               <option value="1">June</option>
-                                               <option value="1">July</option>
-                                               <option value="1">August</option>
-                                               <option value="1">September</option>
-                                               <option value="1">October</option>
-                                               <option value="1">November</option>
-                                               <option value="1">December</option>
-                                               
-                                           </select>
-                                   </div>
-                                   <div class="select-wrapper projectstart" style="width:40%;">
-                                       <label for="eyear">Year</label>
-                                           <select name="eyear" id="eyear" required>
-                                               <option value="">- Select -</option>
-                                               <option value="">2015</option>
-                                               <option value="1">2016</option>
-                                               <option value="1">2017</option>
-                                               <option value="1">2018</option>                                    
-                                           </select>
-                                   </div>
-                               </div>
-                       </div>
-                       <div class="12u$" style="margin-bottom: 30px;">
-                            <ul class="actions">
-                                <li><input type="submit" value="Next Section >>" /></li>
-                            </ul>
-                        </div>
-                
-                <!--<div class="4u 12u$(small)">
-                    <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                    <label for="demo-priority-low">Low Priority</label>
-                </div>
-                <div class="4u 12u$(small)">
-                    <input type="radio" id="demo-priority-normal" name="demo-priority">
-                    <label for="demo-priority-normal">Normal Priority</label>
-                </div>
-                <div class="4u$ 12u$(small)">
-                    <input type="radio" id="demo-priority-high" name="demo-priority">
-                    <label for="demo-priority-high">High Priority</label>
-                </div>
-                <!-- Break 
-                <div class="6u 12u$(small)">
-                    <input type="checkbox" id="demo-copy" name="demo-copy">
-                    <label for="demo-copy">Email me a copy of this message</label>
-                </div>
-                <div class="6u$ 12u$(small)">
-                    <input type="checkbox" id="demo-human" name="demo-human" checked>
-                    <label for="demo-human">I am a human and not a robot</label>
-                </div>
-                <!-- Break 
-                <div class="12u$">
-                    <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-                </div>
-                <!-- Break
-                <div class="12u$">
-                    <ul class="actions">
-                        <li><input type="submit" value="Send Message" /></li>
-                        <li><input type="reset" value="Reset" class="alt" /></li>
-                    </ul>
-                </div>
-            </div>
-        </form>
-    </div>
-            <!--
-            <div>
-                <div>
-                    <label>Select the type of project</label>
-                    <div class="12u$">
-                            <div class="select-wrapper">
-                                <select name="demo-category" id="demo-category"autocomplete="on">
-                                    <option value="">- Select -</option>
-                                    <option value="1">- Select a category -</option>
-                                    <option value="1">Manufacturing</option>
-                                    <option value="1">Shipping</option>
-                                    <option value="1">Administration</option>
-                                    <option value="1">Human Resources</option>
-                                </select>
-                            </div>
-                        </div>
-
-                </div>
-                <div>
-                    <label>Project title</label>
-                    <div class="6u 12u$(xsmall)">
-                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Project Title">
-                    </div>
-
-                </div>
-                <div>
-                    <label>Select the Industry</label>
-                    <div class="12u$">
-                            <div class="select-wrapper">
-                                <select name="demo-category" id="demo-category"autocomplete="on">
-                                    <option value="">- Select -</option>
-                                    <option value="1">- Select a category -</option>
-                                    <option value="1">Manufacturing</option>
-                                    <option value="1">Shipping</option>
-                                    <option value="1">Administration</option>
-                                    <option value="1">Human Resources</option>
-                                </select>
-                            </div>
+                    <div class="12u$" style="margin-bottom: 30px;">
+                        <ul class="actions">
+                            <li><input type="submit" value="Next Section >>" /></li>
+                        </ul>
                     </div>
                 </div>
-                <div>
-                    <label>Cost Range</label>
-                    <div class="12u$">
-                            <div class="select-wrapper">
-                                <select name="demo-category" id="demo-category" autocomplete="on">
-                                    <option value="">- Select -</option>
-                                    <option value="1">Less than 10,000</option>
-                                    <option value="1">10000-49999</option>
-                                    <option value="1">50000-199999</option>
-                                    <option value="1">200000-999999</option>
-                                    <option value="1">1000000-10000000</option>
-                                </select>
-                            </div>
-                        </div>
-                </div>
-                <div>
-                    <label>Project start</label>
-                    <div>
-                    <label>Month</label>
-                    <div class="12u$">
-                        <div class="select-wrapper month">
-                            <select name="demo-category" id="demo-category" placeholder="Month" autocomplete="on">
-                                <option value="">- Select -</option>
-                                <option value="1">January</option>
-                                <option value="1">Februray</option>
-                                <option value="1">March</option>
-                                <option value="1">April</option>
-                                <option value="1">May</option>
-                                <option value="1">June</option>
-                                <option value="1">July</option>
-                                <option value="1">August</option>
-                                <option value="1">September</option>
-                                <option value="1">October</option>
-                                <option value="1">November</option>
-                                <option value="1">December</option>
-                            </select>
-                        </div>
-                    </div>
-                    <label>Year</label>
-                    <div class="12u$">
-                        <div class="select-wrapper">
-                            <select name="demo-category" id="demo-category" placeholder="Month">
-                                <option value="">- Select -</option>
-                                <option value="1">2015</option>
-                                <option value="1">2016</option>
-                                <option value="1">2017</option>
-                                <option value="1">2018</option>
-                            </select>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div>
-                    <label>Project end</label>
-                    <label>Month</label>
-                    <div class="12u$">
-                        <div class="select-wrapper">
-                            <select name="demo-category" id="demo-category" placeholder="Month" autocomplete="on">
-                                <option value="">- Select -</option>
-                                <option value="1">January</option>
-                                <option value="1">Februray</option>
-                                <option value="1">March</option>
-                                <option value="1">April</option>
-                                <option value="1">May</option>
-                                <option value="1">June</option>
-                                <option value="1">July</option>
-                                <option value="1">August</option>
-                                <option value="1">September</option>
-                                <option value="1">October</option>
-                                <option value="1">November</option>
-                                <option value="1">December</option>
-                            </select>
-                        </div>
-                    </div>
-                    <label>Year</label>
-                    <div class="12u$">
-                        <div class="select-wrapper">
-                            <select name="demo-category" id="demo-category" placeholder="Month">
-                                <option value="">- Select -</option>
-                                <option value="1">2015</option>
-                                <option value="1">2016</option>
-                                <option value="1">2017</option>
-                                <option value="1">2018</option>
-                            </select>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-
         </div>
-       
-        -->
+    </form>
+                    
+        
       <div id="contact" class="section contact">
          <div class="w-container">
             <h2>LET’s Get in touch</h2>
