@@ -97,25 +97,25 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">Solution Profile</h2>
+            <h2 class="heading1">Solution Profile</h2>
             <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#home">Software summary</a></li>
-              <li><a data-toggle="tab" href="#menu1">pricing</a></li>
+              <li class="active"><a data-toggle="tab" href="#home" class="normal">Software summary</a></li>
+              <li><a data-toggle="tab" href="#menu1" class="normal">pricing</a></li>
             </ul>
           
             <div class="tab-content">
               <div id="home" class="tab-pane fade in active">
-                <h3>Software summary</h3>
+                <h3 class="heading2">Software summary</h3>
                 <div class="form-container">
                 <form method="post" action="#">
                         <div class="row uniform">
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="softwarename" >software Name*</label>
+                                <label for="softwarename" class="normal">software Name*</label>
                                 <input type="text" name="softwarename" id="softwarename" value="" placeholder="Software Name" required/>
                             </div>
                             <!---->
                             <div class="12u$">
-                                    <label for="scategory" >Software category</label>
+                                    <label for="scategory" class="normal">Software category</label>
                                     <div class="select-wrapper">
                                         <select name="scategory" id="scategory" required>
                                             <option value="">- None -</option>
@@ -137,25 +137,25 @@
                                     </div>
                                 </div>
                             <div class="6u 12u$" style="width: 100%;">
-                                <label for="picture" >Logo<br>
+                                <label for="picture" class="normal">Logo<br>
                                 </label>
                                 <input type="file" name="picture" id="picture" value="" />
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;"> 
-                                    <label for="tagline" >Tagline*</label>
+                                    <label for="tagline" class="normal">Tagline*</label>
                                     <input type="text" name="tagline" id="tagline" value="" placeholder="Tagline" required/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                    <label for="dsd" >Directory short description</label>
+                                    <label for="dsd" class="normal">Directory short description</label>
                                     <input type="text" name="dsd" id="dsd" value="" placeholder="Directory short description" required/>
                                 </div>
                             <div class="12u$">
-                                    <label>Software Summary*</label>
+                                    <label class="normal">Software Summary*</label>
                                     <textarea name="ssummary" id="ssummary" placeholder="Enter your message" rows="6" required></textarea>
                                 </div>
                            
                             <div class="12u$">
-                                    <label for="employeeSize" >Employees*</label>
+                                    <label for="employeeSize" class="normal">Employees*</label>
                                     <div class="select-wrapper">
                                         <select name="employee" id="employee" required>
                                             <option value="">- Category -</option>
@@ -171,12 +171,12 @@
                                     </div>
                                 </div>
                                     <div class="6u 12u$(xsmall)">
-                                        <label for="website" >Website*</label>
+                                        <label for="website" class="normal">Website*</label>
                                         <input type="text" name="website" id="website" value="" placeholder="Company Name" required/>
                                     </div>
                                     <!-- Break -->
                                     <div class="12u$">
-                                            <label>Key clients</label>
+                                            <label class="normal">Key clients</label>
                                             <textarea name="keyclients" id="keyclients" placeholder="Enter your message" rows="6"></textarea>
                                         </div>
                                         <!-- Break -->
@@ -188,39 +188,39 @@
 
               </div>
               <div id="menu1" class="tab-pane fade">
-                <h3>Pricing</h3>
+                <h3 class="heading2">Pricing</h3>
                 <div class="form-container">
                         <form method="post" action="#">
                                 <div class="row uniform">
                                         <div class="12u$">
-                                                <label>Pricing into text</label>
+                                                <label class="normal">Pricing into text</label>
                                                 <textarea name="pricingtext" id="pricingtext" placeholder="" rows="6"></textarea>
                                             </div>
                                         <!-- Break -->
                                         <div class="12u$">
-                                            <label>Options to start</label>
+                                            <label class="normal">Options to start</label>
                                             <textarea name="start" id="start" placeholder="" rows="6"></textarea>
                                         </div>
                                         <!-- Break -->
                                     <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                            <label for="softwarename" >Price range</label>
+                                            <label for="softwarename" class="normal">Price range</label>
                                             <input type="text" name="pricerange" id="pricerange" value="" placeholder="" maxlength="50"/>
                                         </div>
-                                    <div class="6u 12u$(small)">
-                                        <label>Pricing options</label>
+                                    <div class="6u 12u$(small)"  class="normal">
+                                        <label class="normal">Pricing options</label>
                                             <input type="checkbox" id="montly" name="monthly">
-                                            <label for="monthly">Monthly subscription</label>
+                                            <label for="monthly" class="normal">Monthly subscription</label>
                                     </div>
                                     <div class="6u$ 12u$(small)">
                                         <input type="checkbox" id="annual" name="annual">
-                                        <label for="annual">Annual Subscription</label>
+                                        <label for="annual" class="normal">Annual Subscription</label>
                                 </div>
                                 <div class="6u$ 12u$(small)">
                                         <input type="checkbox" id="onetime" name="onetime">
-                                        <label for="onetime">one time license</label>
+                                        <label for="onetime" class="normal">one time license</label>
                                     </div>
                                 <div class="6u$ 12u$(small)" style="width: 100%;">
-                                    <label>Pricing table</label>
+                                    <label class="normal">Pricing table</label>
                                     <table>
                                         <tr>
                                             <td>
@@ -247,11 +247,11 @@
                                     </table>
                                 </div>
                                 <div class="12u$">
-                                        <label>Pricing plan summary(Provide 1-2 sentences overview of the rangeto your plans and a pricing range</label>
+                                        <label class="normal">Pricing plan summary(Provide 1-2 sentences overview of the rangeto your plans and a pricing range</label>
                                         <textarea name="prange" id="prange" placeholder="" rows="6"></textarea>
                                     </div>
                                         <div class="6u 12u$(xsmall)">
-                                            <label for="street" >Pricing page</label>
+                                            <label for="street" class="normal">Pricing page</label>
                                             <input type="text" name="ppage" id="ppage" value="" placeholder="Pricing page"/>
                                         </div>
                         </form>

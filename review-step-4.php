@@ -97,17 +97,17 @@
                     <li class="active">Step 3</li>
                     <li class="active">Step 4</li>
                 </ul>
-      <h3>Verification</h3>
-      <p>This last step is to verify the reviewer by using their contact information</p>
+      <h3 class="heading1">Verification</h3>
+      <p class="heading2">This last step is to verify the reviewer by using their contact information</p>
 
         <form method="post" action="https://pure-plains-98928.herokuapp.com/addreview4/<?php echo $_SESSION['userId']; ?>">
             <div class="row uniform">
                 <div class="6u 12u$(xsmall)" style="width: 100%;">
-                    <label for="email" >Email*</label>
+                    <label for="email" class="normal">Email*</label>
                     <input type="text" name="email" id="email" value="" placeholder="Email" required/>
                 </div>
                 <div class="6u$ 12u$(xsmall)" style="width: 100%;">
-                    <label for="mobNo" >Mobile Number*</label>
+                    <label for="mobNo" class="normal">Mobile Number*</label>
                     <input type="text" name="mobNo" id="mobNo" value="" placeholder="Mobile Number" required/>
                 </div>
                 

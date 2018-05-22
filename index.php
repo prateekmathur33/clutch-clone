@@ -22,6 +22,7 @@
       <link href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
       <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon"/>
       <link href="http://fonts.googleapis.com/css?family=Ubuntu+condensed&effect=shadow-multiple" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
       <link href="http://fonts.googleapis.com/css?family=Acme" rel="stylesheet" type="text/css">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
       <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -29,22 +30,7 @@
       <link rel="stylesheet" type="text/css" href="assets/css/nav-bar-swing.css">
       
 
-      <style>
-          .first{
-              font-family: 'Tangerine',Arial, Helvetica, sans-serif;
-              font-size: 48px;
-              font-weight: 10px;
-          }
-          .firstone{
-              font-family: 'Tangerine',Arial, Helvetica, sans-serif;
-              font-size: 40px;
-              padding-bottom: 20px;
-              font-weight: 10px;
-          }
-          .second{
-              font-family: 'Acme',Arial, Helvetica, sans-serif;
-              font-size: 15px;
-          }
+      <style>        
 
           #hideAll
             {
@@ -119,7 +105,7 @@
       <?php require 'header.php'; ?>
       <div class="header" id="header">
             <div data-wow-delay=".1s" class="wow zoomInRight">
-                <h1 class="main-heading">Making brands stand out<br/>is our obsession</h1>
+                <h1 class="main-heading heading1">Making brands stand out<br/>is our obsession</h1>
             </div>
 
          <div class="w-form">
@@ -140,14 +126,14 @@
       <div class="about-section">
          <img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596a173b5286f_x-black.png" width="52" class="x-icon"/>
          <div class="w-container">
-            <p class="about-text">Minimalist is a full-service digital creative agency located in Ontorio Canada. We focus on design, consulting, technology, and photography. We’ve been building unique digital products, platforms, and experiences for the past 6  years. Let us help your company grow.</p>
+            <p class="about-text normal">Minimalist is a full-service digital creative agency located in Ontorio Canada. We focus on design, consulting, technology, and photography. We’ve been building unique digital products, platforms, and experiences for the past 6  years. Let us help your company grow.</p>
             <li><a href="#" class="button">See More...</a></li>
          </div>
       </div>
       <div id="process" class="section">
          <div class="w-container">
             <div class="wow lightSpeedIn">
-                <h2 class="firstone">Choose your BUSINESS decision wisely</h2>
+                <h2 class="heading1">Choose your BUSINESS decision wisely</h2>
             </div>
             <div class="divider grey"></div>
             <div class="wow fadeInLeftBig">
@@ -155,22 +141,22 @@
                     <div class="bounceInLeft">
                         <div class="w-col w-col-4">
                             <div class="grey-icon-wrapper"><img src="images/Ceritified.jpg" width="250" class="big-icon"/></div>
-                            <h3>Certified reviews</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
+                            <h3 class="heading2">Certified reviews</h3>
+                            <p class="normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. </p>
                         </div>
                     </div>
                     <div class="bounceInLeft">
                         <div class="w-col w-col-4">
                             <div class="grey-icon-wrapper push-top"><img src="images/Verified.jpg" width="250" class="big-icon"/></div>
-                            <h3>Verified Companies</h3>
-                            <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+                            <h3 class="heading2">Verified Companies</h3>
+                            <p class="normal">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
                         </div>
                     </div>
                     <div class="bounceInLeft">
                         <div class="w-col w-col-4">
                             <div class="grey-icon-wrapper push-top"><img src="images/Ranked.jpg" width="250" class="big-icon"/></div>
-                            <h3>get top ranked first</h3>
-                            <p>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                            <h3 class="heading2">get top ranked first</h3>
+                            <p class="normal">Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
                         </div>
                     </div>
                 </div>
@@ -180,7 +166,7 @@
       <div id="projects" class="section grey" style="padding-bottom: 0px;">
          <div class="w-container">
             <div class="wow flipInX">
-                <h2 class="firstone">Services</h2>
+                <h2 class="heading1">Services</h2>
             </div>
             <div class="divider grey"></div>
             <div class="text-block">Explore the 500+ Services for your business based on your requirement</div>
@@ -189,7 +175,7 @@
                     <a href="/project-page" class="project-wrapper w-inline-block">
                         <img src="images/Adevertising.jpg" class="image"/>
                         <div class="project-info">
-                            <h3 class="project-title">Advertising &amp; Marketing</h3>
+                            <h3 class="project-title heading2">Advertising &amp; Marketing</h3>
                             
                         </div>
                     </a>
@@ -199,7 +185,7 @@
                         <a href="/project-page" class="project-wrapper w-inline-block">
                             <img src="images/SEO.jpg" sizes="(max-width: 767px) 96vw, (max-width: 991px) 167px, 220px" class="image-2"/>
                             <div class="project-info">
-                            <h3 class="project-title">Search engine optimization</h3>
+                            <h3 class="project-title heading2">Search engine optimization</h3>
                             
                             </div>
                         </a>
@@ -210,7 +196,7 @@
                         <a href="/project-page" class="project-wrapper w-inline-block">
                             <img src="images/Mobile-App-Development.jpg" class="image-3"/>
                             <div class="project-info">
-                            <h3 class="project-title">Mobile app development</h3>
+                            <h3 class="project-title heading2">Mobile app development</h3>
                             
                             </div>
                         </a>
@@ -220,7 +206,7 @@
                     <a href="/project-page" class="project-wrapper w-inline-block">
                         <img src="images/Web-&-Software-Development.jpg" sizes="(max-width: 767px) 96vw, (max-width: 991px) 167px, 220px" class="image-5"/>
                         <div class="project-info">
-                            <h3 class="project-title">Web &amp; software development</h3>
+                            <h3 class="project-title heading2">Web &amp; software development</h3>
                             
                         </div>
                     </a>
@@ -232,7 +218,7 @@
                         <a href="/project-page" class="project-wrapper w-inline-block">
                             <img src="images/Business-Services.jpg" class="image-4"/>
                             <div class="project-info">
-                            <h3 class="project-title">Bussiness<br>Services</h3>
+                            <h3 class="project-title heading2">Bussiness<br>Services</h3>
                             
                             </div>
                         </a>
@@ -243,7 +229,7 @@
                         <a href="/project-page" class="project-wrapper w-inline-block">
                             <img src="images/Designing.jpg" sizes="(max-width: 767px) 96vw, (max-width: 991px) 167px, 220px" class="image-6"/>
                             <div class="project-info">
-                            <h3 class="project-title">Graphics<br>Designing</h3>
+                            <h3 class="project-title heading2">Graphics<br>Designing</h3>
                             
                             </div>
                         </a>
@@ -254,7 +240,7 @@
                         <a href="/project-page" class="project-wrapper w-inline-block">
                             <img src="images/IT-&-Services.jpg" class="image-7"/>
                             <div class="project-info">
-                            <h3 class="project-title">It services<br>&amp; Solutions</h3>
+                            <h3 class="project-title heading2">It services<br>&amp; Solutions</h3>
                             
                             </div>
                         </a>
@@ -265,7 +251,7 @@
                         <a href="/project-page" class="project-wrapper w-inline-block">
                             <img src="images/More.jpg" class="image-8"/>
                             <div class="project-info">
-                            <h3 class="project-title">See<br>more...</h3>
+                            <h3 class="project-title heading2">See<br>more...</h3>
                             
                             </div>
                         </a>
@@ -275,7 +261,7 @@
       </div>
       <div id="team" class="section">
          <div class="w-container">
-            <h2 class="firstone">Top firms</h2>
+            <h2 class="heading1">Top firms</h2>
             <div class="divider grey"></div>
             <div class="wow zoomIn">
                 <div class="team-row w-row">
@@ -313,22 +299,22 @@
             <div data-animation="slide" data-duration="500" data-infinite="1" class="testimonial-slider w-slider">
                <div class="mask w-slider-mask">
                   <div class="testimonial-slide w-slide">
-                     <p class="testimonial">“I love these guys! They did a great job. I would recommend them to anyone.” </p>
+                     <p class="testimonial normal">“I love these guys! They did a great job. I would recommend them to anyone.” </p>
                      <img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596b824b52862_128.jpg" width="64" class="face"/>
                      <div class="from">Julius Von Uberstien</div>
                   </div>
                   <div class="testimonial-slide left-border w-slide">
-                     <p class="testimonial">“Elexis Corp. has grown immensely with the help of Minimal.” </p>
+                     <p class="testimonial normal">“Elexis Corp. has grown immensely with the help of Minimal.” </p>
                      <img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596b30ab52867_krystal.jpg" width="64" class="face"/>
                      <div class="from">Rachel Stamos</div>
                   </div>
                   <div class="testimonial-slide w-slide">
-                     <p class="testimonial">“I’m working with these guys from now on!”</p>
+                     <p class="testimonial normal">“I’m working with these guys from now on!”</p>
                      <img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d5965657b5286e_face-am.jpg" width="64" class="face"/>
                      <div class="from">John Smith</div>
                   </div>
                   <div class="testimonial-slide left-border w-slide">
-                     <p class="testimonial">“Top-notch job. Couldn’t have asked for better design and photography.</p>
+                     <p class="testimonial normal">“Top-notch job. Couldn’t have asked for better design and photography.</p>
                      <img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d5962e6db52869_face-chad.jpg" width="64" class="face"/>
                      <div class="from">Phil Johnson</div>
                   </div>

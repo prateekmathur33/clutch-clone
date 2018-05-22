@@ -98,15 +98,15 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">My Company Profile</h2>
-            <p>When creating a company profile, you should be as thorough as possible. You should fill all the necessary details required by the analyst prior to the publishing .You will be notified after publishing.</p>
+            <h2 class="heading1">My Company Profile</h2>
+            <p class="normal">When creating a company profile, you should be as thorough as possible. You should fill all the necessary details required by the analyst prior to the publishing .You will be notified after publishing.</p>
           
-                <h3>Profile Tracking</h3>
+                <h3 class="heading2">Profile Tracking</h3>
                 <div class="form-container">
                 <form method="post" action="#">
                         <div class="row uniform">
                                 <div class="6u 12u$(xsmall)" style="width: 100%">
-                                    <label for="ganaltyics" >Google Analytics*(this ID is unique for each site you want to track separately,and is in the form of UA-xxxxxxx-yy</label>
+                                    <label for="ganaltyics" class="normal">Google Analytics*(this ID is unique for each site you want to track separately,and is in the form of UA-xxxxxxx-yy</label>
                                     <input type="text" name="ganaltyics" id="ganaltyics" value="" placeholder="" required/>
                                 </div>
                         </div>

@@ -98,10 +98,10 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first" style="text-align: center;">References</h2>
+            <h2 class="heading1" style="text-align: center;margin:0px;">References</h2>
                 <div class="form-container">
-                    <p>Your clients have the option to leave a review and have a interview over phone for projects having a greater budget than 25000.</p>
-                    <p>After the interview has been conducted your review will be  published in the profile</p>
+                    <p class="normal">Your clients have the option to leave a review and have a interview over phone for projects having a greater budget than 25000.</p>
+                    <p class="normal">After the interview has been conducted your review will be  published in the profile</p>
                 <form method="post" action="#">
                         <div class="row uniform">
                             <div class="12u$" style="margin-left: 100px;%;margin-bottom: 30px;">

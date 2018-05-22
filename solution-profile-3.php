@@ -98,13 +98,13 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">My Solution Profile</h2>
-            <h3>Profile Tracking</h3>
+            <h2 class="heading1">My Solution Profile</h2>
+            <h3 class="heading2">Profile Tracking</h3>
                 <div class="form-container">
                 <form method="post" action="#">
                         <div class="row uniform">
                                 <div class="6u 12u$" style="width: 100%;">
-                                        <label for="picture" >Logo<br>
+                                        <label for="picture" class="normal">Logo<br>
                                         </label>
                                         <input type="file" name="picture" id="picture" value="" />
                                     </div>

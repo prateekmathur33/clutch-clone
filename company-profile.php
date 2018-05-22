@@ -16,32 +16,10 @@
       <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon"/>
       <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
       <link rel="stylesheet" href="assets/css/main.css" />
-      <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Roboto" rel="stylesheet">
 
       <style>
-          .heading1{
-	font-family: 'Bree Serif', serif;
-	font-size: 2.5em;
-  }
-  .heading2{
-	font-family: 'Bree Serif', serif;
-	font-size: 1.6em;            
-  }
-  .normal{
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-	}
           #show{
               display: none;
-          }
-          h5,h6{
-              margin:0px;
-              font-family:Arial, Helvetica, sans-serif;
-          }
-          .h3{
-              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-              margin: 20px 0px 10px 0px;
-              color: black;
           }
           .card-item{
             background-color: #fff;
@@ -58,12 +36,6 @@
             .row img:hover{
                 box-shadow: 0 8px 16px 0 rgba(58, 55, 55, 0.2);
                 border: grey;
-            }
-            .h2{
-                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-weight: bold;
-                color: black;
-                text-shadow: #34495e;
             }
         
           hr{
@@ -170,122 +142,18 @@
 
     </head>
    <body>
-      <div data-collapse="medium" data-animation="default" data-duration="400" id="navbar" class="navbar w-nav">
-         <div class="w-container">
-            <a href="#" class="brand-block w-clearfix w-nav-brand">
-               <img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596c662b52868_minimal-logo.png" width="65" class="logo-img"/>
-               <h1 class="logo-title">Minimal</h1>
-            </a>
-            <nav role="navigation" class="nav-menu w-nav-menu">
-               <a href="#process" class="nav-link w-nav-link">Home</a>
-               <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
-                  <div class="dropdown-toggle w-dropdown-toggle">
-                     <div class="w-icon-dropdown-toggle"></div>
-                     <div class="text-block-2">Services</div>
-                  </div>
-                  <nav class="w-dropdown-list">
-                        <ul class="col6">
-                            <li class="nav-header">Advertising &amp; Marketing</li>
-                            <li class="nav-sub-list">Adertising</li> 
-                            <li class="nav-sub-list">Digital Marketing</li>
-                            <li class="nav-sub-list">Social Media Marketing</li>
-                            <li class="nav-sub-list">Mobile App Development</li>
-                            <li class="nav-sub-list">Content Marteting</li>
-                            <li class="nav-sub-list">Full Service Digital</li>
-                            <li class="nav-sub-list">Creative Agencies</li>
-                            <li class="nav-sub-list">Branding</li>
-                            <li class="nav-sub-list">Naming</li>
-                            <li class="nav-sub-list">Video Production</li>
-                            <li class="nav-sub-list">Public Relation</li>
-                            <li class="nav-sub-list">Media Planning &amp; Buying</li>
-                            <li class="nav-sub-list">Digital Strategy</li>
-                            <li class="nav-sub-list">Email Marketing</li>
-                            <li class="nav-sub-list">Inbound Marketing</li>
-                            <li class="nav-sub-list">Market Research</li>
-                            <li class="nav-sub-list">Market Software</li>
-
-                        </ul>
-
-                        <ul class="col6">
-                            <li class="nav-header">Search Engine Optimization</li>
-                            <li class="nav-sub-list">SEO</li>
-                            <li class="nav-sub-list">Pay Per Click</li>
-
-                            <li class="nav-header">Business Services</li>
-                            <li class="nav-sub-list">BPO</li>
-                            <li class="nav-sub-list">Voice/Call Center Services</li>
-                            <li class="nav-sub-list">Accounting</li>
-                            <li class="nav-sub-list">Human Resource</li>
-
-                        </ul>
-                        <ul class="col6">
-                            <li class="nav-header">Mobile App Development</li>
-                            <li class="nav-sub-list">Mobile App Developers</li>
-                            <li class="nav-sub-list">Android App Developers</li>
-                            <li class="nav-sub-list">iPhone App Developers</li>
-                            <li class="nav-sub-list">App Development Software</li>
-
-                        </ul>
-                        <ul class="col6">
-                            <li class="nav-header">Web &amp; Software Development</li>
-                            <li class="nav-sub-list">Web Development</li>
-                            <li class="nav-sub-list">Custom Software Developers</li>
-                            <li class="nav-sub-list">E-commerce Development</li>
-                            <li class="nav-sub-list">Website Builder Software</li>
-                            <li class="nav-sub-list">.Net Developers</li>
-                            <li class="nav-sub-list">AR &amp; VR Developers</li>
-                            <li class="nav-sub-list">Blockchain Developers</li>
-                            <li class="nav-sub-list">Drupal Developers</li>
-                            <li class="nav-sub-list">IoT Developers</li>
-                            <li class="nav-sub-list">Magento Developers</li>
-                            <li class="nav-sub-list">PHP Developers</li>
-                            <li class="nav-sub-list">Ruby on Rails Developers</li>
-                            <li class="nav-sub-list">Shopify Developers</li>
-                            <li class="nav-sub-list">WordPress Developers</li>
-                            
-                        </ul>
-                        <ul class="col6">
-                            <li class="nav-header">Designing</li>
-                            <li class="nav-sub-list">Web Designer</li>
-                            <li class="nav-sub-list">User Experience</li>
-                            <li class="nav-sub-list">Digital Design</li>
-                            <li class="nav-sub-list">Graphic Design</li>
-                            <li class="nav-sub-list">Logo Design</li>
-                            <li class="nav-sub-list">Product Design</li>
-                            <li class="nav-sub-list">Packaging Design</li>
-                            <li class="nav-sub-list">Print Design</li>
-                            
-                        </ul>
-                        <ul class="col6">
-                            <li class="nav-header">IT Services &amp; Solutions</li>
-                            <li class="nav-sub-list">Managed Services Providers</li>
-                            <li class="nav-sub-list">IT Services</li>
-                            <li class="nav-sub-list">Cloud Consultants</li>
-                            <li class="nav-sub-list">BI &amp; Big Data</li>
-                            <li class="nav-sub-list">Cyber Security</li>
-                            <li class="nav-sub-list">Staff Augmentation</li>
-                            
-                        </ul>
-                     </nav>
-               </div>
-               <a href="#team" class="nav-link w-nav-link">Leave a Review</a><a href="#contact" class="nav-link w-nav-link">Login/Signup</a>
-            </nav>
-            <div class="menu-button w-nav-button">
-               <div class="w-icon-nav-menu"></div>
-            </div>
-         </div>
-      </div><!---->
-    <div class="container" style="background-color: #f6f6f6; margin-bottom: 20px;">
+   <?php require 'header.php'; ?>
+    <div>
             <div class="card-item">
                     <div class="header1" style="background-color: lavender;overflow:hidden;padding: 10px;" >
                           <div class="logocompany">
                               <img src="images/pic01.jpg" style="margin-right: 30px;margin-left: 30px;background-color: lavender;">
                           </div>
                           <div>
-                              <h4 style="margin:0px;" class="heading2"><b><u>Brandtuitive</u></b></h4>
+                              <h4 class=""><b><u>Brandtuitive</u></b></h4>
                           </div>
-                          <p style="margin: 0;" class="normal">Unexpected thinking</p>
-                          <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><a style="text-decoration: none;" class="normal">&nbsp;&nbsp;&nbsp;Reviews</a></p>
+                          <p style="margin: 0;">Unexpected thinking</p>
+                          <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><a style="text-decoration: none;">&nbsp;&nbsp;&nbsp;Reviews</a></p>
                       </div>
                       <hr style="margin-bottom: 0px;margin-top: 0px;">
                     <div style="width: 100%;margin: 10px;display: inline-block;">
@@ -293,19 +161,19 @@
                               
                               <div style="width: 70%;display: inline-block">
                                   <div style="border-right:2px solid black;display: inline-block">
-                                      <p style="margin: 0;" class="normal">"Brandtuitive has an exceptional first class team. They're a joy to be around and they work their trails off."</p>
-                                      <p style="margin: 0;" class="normal">Trade Marketer, Large CPG, Corporation</p>
-                                      <p style="margin: 0;" class="normal"><a>contact@brandtuitive.com</a></p>
-                                      <p style="margin: 0;" class="normal">1234567890</p>
+                                      <p style="margin: 0;">"Brandtuitive has an exceptional first class team. They're a joy to be around and they work their trails off."</p>
+                                      <p style="margin: 0;">Trade Marketer, Large CPG, Corporation</p>
+                                      <p style="margin: 0;"><a>contact@brandtuitive.com</a></p>
+                                      <p style="margin: 0;">1234567890</p>
                                   </div>
                                  
                               </div>
                               <div style="display: inline-block;padding-top: 0;">
                                   <table><tr>
-                                      <p style="margin: 5px;" class="normal"><i class="fa fa-tag"></i>&nbsp;&nbsp;&nbsp; ₹50000+</p>
-                                      <p style="margin: 5px;" class="normal">&nbsp;&nbsp;&nbsp; ₹150-₹199+</p>
-                                      <p style="margin: 5px;" class="normal"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;10-49</p>
-                                      <p style="margin: 5px;" class="normal"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;New York,NY</p>
+                                      <p style="margin: 5px;"><i class="fa fa-tag"></i>&nbsp;&nbsp;&nbsp; ₹50000+</p>
+                                      <p style="margin: 5px;">&nbsp;&nbsp;&nbsp; ₹150-₹199+</p>
+                                      <p style="margin: 5px;"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;10-49</p>
+                                      <p style="margin: 5px;"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;New York,NY</p>
                                       </tr></table>
                                   </div>
               
@@ -316,8 +184,8 @@
                     </div>
                   </div>
                   <div style="border-top:3px solid black;margin-bottom: 0px;">
-                      <h2 style="border-bottom:1px solid black;" class="heading1">Portfolio</h2>
-                      <p style="margin-left:50px;" class="normal"><strong>Key clients: </strong>Nespresso, Simply wine.</p>
+                      <h2 class="portfolio" style="border-bottom:1px solid black;">Portfolio</h2>
+                      <p style="margin-left:50px;"><strong>Key clients: </strong>Nespresso, Simply wine.</p>
                         <div class="row">
                             <div class="col-sm-3"><img src="images/pic01.jpg" style="height: 250px; width:250px;margin-left:10px;"></div>
                             <div class="col-sm-3"><img src="images/pic01.jpg" style="height: 250px; width:250px;margin-left:10px;">></div>
@@ -330,16 +198,16 @@
                     <div style="width:100%;border-bottom: 1px solid black;display: inline-block;padding-bottom: 0px;padding: 0px;">
                         <div class="header1" style="width:100%;overflow:hidden;padding: 10px;display: inline-block;text-align: center;">
                             <div>
-                                <h4 style="margin:0px;"  class="heading2"><b><u>Reviews</u></b></h4>
+                                <h4 style="margin-bottom: 0;text-shadow: tomato;color: red;font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: 20px;"><b><u>Reviews</u></b></h4>
                             </div>
-                            <p style="margin: 0;" class="normal">Unexpected thinking</p>
-                            <p style="margin: 0;" class="normal">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><a style="text-decoration: none;">&nbsp;&nbsp;&nbsp;Reviews</a></p>
+                            <p style="margin: 0;">Unexpected thinking</p>
+                            <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><a style="text-decoration: none;">&nbsp;&nbsp;&nbsp;Reviews</a></p>
                         </div>
                     
                         <div style="display: inline-block;" class="header1" style="top: -50%">
                             <div style="display: inline-block;">
                                 <ul>
-                                    <li style="display: inline-block;"><label class="normal">Sort By</label></li>
+                                    <li style="display: inline-block;"><label>Sort By</label></li>
                                     <li style="display: inline-block;">
                                         <select style="width: 200px;">
                                             <option value="1">Sponsored</option>
@@ -382,10 +250,10 @@
                             <tr >
                                 <td style="width: 25%;">
                                 <h5><b>THE PROJECT</b></h5>
-                                <h3 class="normal">Branding stratergy for Large CGP Corporation</h3>
-                                <p style="margin: 5px;" class="normal"><i class="fa fa-tv"></i>&nbsp;&nbsp;&nbsp; ₹50000+</p>
-                                <p style="margin: 5px;" class="normal"><i class="fa fa-tag"></i>&nbsp;&nbsp;&nbsp; ₹1,00,000-₹99,99,999</p>
-                                <p style="margin: 5px;" class="normal"><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;2016 ongoing</p>
+                                <h3>Branding stratergy for Large CGP Corporation</h3>
+                                <p style="margin: 5px;"><i class="fa fa-tv"></i>&nbsp;&nbsp;&nbsp; ₹50000+</p>
+                                <p style="margin: 5px;"><i class="fa fa-tag"></i>&nbsp;&nbsp;&nbsp; ₹1,00,000-₹99,99,999</p>
+                                <p style="margin: 5px;"><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;2016 ongoing</p>
                                 <hr>
                                 </td>
                             <!--<div>
@@ -394,125 +262,123 @@
                             </div>-->
                                 <td style="width: 25%;">
                                     <h5><b>THE PROJECT</b></h5>
-                                    <p class="normal">"Brandtuitive have an exceptional first-class team. They're joy to be around and they worktheir tails off."</p>
-                                    <h5 class="normal">Jan 2016</h5>
+                                    <p>"Brandtuitive have an exceptional first-class team. They're joy to be around and they worktheir tails off."</p>
+                                    <h5>Jan 2016</h5>
                                     <hr>
                                 </td>
                                 <td style="width: 25%;">
                                     <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
                                     <hr>
-                                    <table class="normal">
+                                    <table>
                                         <tr>
-                                            <td class="normal">Quality</td>
-                                            <td class="normal">4.5</td>
+                                            <td>Quality</td>
+                                            <td>4.5</td>
                                         </tr>
                                         <tr>
-                                            <td class="normal">Schedule</td>
-                                            <td class="normal">5.0</td>
+                                            <td>Schedule</td>
+                                            <td>5.0</td>
                                         </tr>
                                         <tr>
-                                            <td class="normal">Cost</td>
-                                            <td class="normal">5.0</td>
+                                            <td>Cost</td>
+                                            <td>5.0</td>
                                         </tr>
                                         <tr>
-                                            <td class="normal">Willing to refer</td>
-                                            <td class="normal">5.0</td>
+                                            <td>Willing to refer</td>
+                                            <td>5.0</td>
                                         </tr>
                                     </table>
-                                </td>
+                                    </td>
                                 <td>
-                                    <h3 class="heading2"><b>THE REVIEWER</b></h3>
-                                    <h2 class="normal">Trade Marketer, Large CPG Corporation</h2>
+                                    <h3><b>THE REVIEWER</b></h3>
+                                    <h2>Trade Marketer, Large CPG Corporation</h2>
                                     <hr>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="width: 25%;">
-                                    <h3 class="heading2"><b>Project summary</b></h3>
-                                    <p class="normal">Brantuitive provides ongoing support for creative development, brand stratergy, and promotional communication</p>
+                                    <h3><b>Project summary</b></h3>
+                                    <p>Brantuitive provides ongoing support for creative development, brand stratergy, and promotional communication</p>
                                 </td>
                                 <td style="width: 50%;">
-                                    <h4 class="heading2"><b>Feedback Summary</b></h4>
-                                    <p class="normal">The client praises Brandtuitive for their flexibility. They are able to accomodate large corporations despite being a smaller agency.</p>
+                                    <h4><b>Feedback Summary</b></h4>
+                                    <p>The client praises Brandtuitive for their flexibility. They are able to accomodate large corporations despite being a smaller agency.</p>
                                     <input type="button" id="bt2" name="bt2" value="Read Full Review" onclick="show()">
                                 </td>
                                 <td>
-                                    <p  style="margin: 5px;" class="normal"><i class="fa fa-building"></i>&nbsp;&nbsp;&nbsp;Consumer goods</p>
-                                    <p style="margin: 5px;" class="normal"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;5001-100001</p>
-                                    <p style="margin: 5px;" class="normal" ><i class="fa fa-check"></i>&nbsp;&nbsp;&nbsp;</p>
+                                    <p  style="margin: 5px;"><i class="fa fa-building"></i>&nbsp;&nbsp;&nbsp;Consumer goods</p>
+                                    <p style="margin: 5px;"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;5001-100001</p>
+                                    <p style="margin: 5px;" ><i class="fa fa-check"></i>&nbsp;&nbsp;&nbsp;</p>
                                 </td>
                             </tr>
                         </table>
                     </div>
                             <div id="show" class="container">
                                 <ul class="nav nav-tabs">
-                                    <li><a data-toggle="tab" href="#menu0"  class="normal">Background</a></li>
-                                    <li><a data-toggle="tab" href="#menu1" class="normal" >Challange</a></li>
-                                    <li><a data-toggle="tab" href="#menu2" class="normal" >Solution</a></li>
-                                    <li><a data-toggle="tab" href="#menu3"  class="normal">Results and Feedback</a></li>
-                                    <li><a data-toggle="tab" href="#menu4"  class="normal">Ratings</a></li>
+                                    <li class="active"><a data-toggle="tab" href="#home">Background</a></li>
+                                    <li><a data-toggle="tab" href="#menu1">Challange</a></li>
+                                    <li><a data-toggle="tab" href="#menu2">Solution</a></li>
+                                    <li><a data-toggle="tab" href="#menu3">Results and Feedback</a></li>
+                                    <li><a data-toggle="tab" href="#menu4">Ratings</a></li>
                                 </ul>
-                                <div class="tab-content">
-                                        <div id="menu0" class="tab-pane fade in active">
-                                            <h2 class="heading1">Background</h2>
-                                            <h3 class="haeding2">Introduce your business and what you do</h3>
-                                            <p class="normal">We're a large CPG company. I am incharge of trade marketing of the company.</p>
+                                <div class="tab-container">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <h2>Background</h2>
+                                            <h3>Introduce your business and what you do</h3>
+                                            <p>We're a large CPG company. I am incharge of trade marketing of the company.</p>
                                             <hr>
                                         </div>
                                 
                                         <div id="menu1" class="tab-pane fade">
-                                            <h2 class="heading1">Challange</h2>
-                                            <h3 class="haeding2">What type of challange you were trying to address with Brandtuitive</h3>
-                                            <p class="normal">The primary challanges we face arearound the brand and promotional communications towards our customers.</p>
+                                            <h2>Challange</h2>
+                                            <h3>What type of challange you were trying to address with Brandtuitive</h3>
+                                            <p>The primary challanges we face arearound the brand and promotional communications towards our customers.</p>
                                             <hr>
                                         </div>
                                         <div id="menu2" class="tab-pane fade">
-                                            <h2 class="heading1">Solution</h2>
-                                            <h3 class="heading2">What was the scope of their involvement</h3>
-                                            <p class="normal">Brandtuitive was used for creative development</p>
-                                            <h3 class="heading2">How did you come to work with Brandtuitive</h3>
-                                            <p class="normal">This is the agrency in which I became working as a current role.</p>
+                                            <h2>Solution</h2>
+                                            <h3>What was the scope of their involvement</h3>
+                                            <p>Brandtuitive was used for creative development</p>
+                                            <h3>How did you come to work with Brandtuitive</h3>
+                                            <p>This is the agrency in which I became working as a current role.</p>
                                             <hr>
                                         </div>
                                         <div id="menu3" class="tab-pane fade">
-                                            <h2 class="heading1">Results and Feedback</h2>
-                                            <h3 class="heading2">How did Brandtuitive performed as a project management standpoint?</h3>
-                                            <p class="normal">As far as project management and client service go, BrandTuitive is in the A+ category. When it comes to proactive tracking, I would rate them an A-, but that's more to do with me wanting more than the norm in that regard. One of BrandTuitive's strengths is that they're buttoned-up on these issues.</p>
+                                            <h2>Results and Feedback</h2>
+                                            <h3>How did Brandtuitive performed as a project management standpoint?</h3>
+                                            <p>As far as project management and client service go, BrandTuitive is in the A+ category. When it comes to proactive tracking, I would rate them an A-, but that's more to do with me wanting more than the norm in that regard. One of BrandTuitive's strengths is that they're buttoned-up on these issues.</p>
                                             <hr>
                                         </div>
                                         <div id="menu4" class="tab-pane fade">
                                             <table>
                                                 <tr>
                                                     <td>
-                                                        <h2  class="heading1" style="background-color: white;">Ratings</h2>
+                                                        <h2 style="background-color: white;">Ratings</h2>
                                                         <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
-                                                        <h3 class="heading1">Overall Ratings</h3>
-                                                    </td>
-                                                </tr>
-                                                </table>
-                                                <table>
-                                                <tr>
-                                                    <td>
-                                                        <h5 class="normal">Scheduling</h5>  
-                                                        <h6 class="normal">ON TIME/DEADLINE</h6>  
-                                                        <p style="margin: 0;" class="normal">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
-                                                    </td>
-                                                    <td>
-                                                            <h5 class="normal">Cost</h5>  
-                                                            <h6 class="normal">VALUE/WITHIN ESTIMATES</h6>  
-                                                            <p style="margin: 0;" class="normal">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                                        <h3>Overall Ratings</h3>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                            <h5 class="normal">Quality</h5>  
-                                                            <h6 class="normal">SERVICES</h6>  
-                                                            <p style="margin: 0;" class="normal">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                                        <h5>Scheduling</h5>  
+                                                        <h6>ON TIME/DEADLINE</h6>  
+                                                        <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
                                                     </td>
                                                     <td>
-                                                            <h5 class="normal">NPS</h5>  
-                                                            <h6 class="normal">WILLING TO REFER </h6>  
-                                                            <p style="margin: 0;" class="normal">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                                            <h5>Cost</h5>  
+                                                            <h6>VALUE/WITHIN ESTIMATES</h6>  
+                                                            <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                            <h5>Quality</h5>  
+                                                            <h6>SERVICES</h6>  
+                                                            <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
+                                                    </td>
+                                                    <td>
+                                                            <h5>NPS</h5>  
+                                                            <h6>WILLING TO REFER </h6>  
+                                                            <p style="margin: 0;">5.0&nbsp;&nbsp;&nbsp;<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></p>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -639,35 +505,17 @@
       </div>
     </div>
     <hr style="margin-bottom: 10px;margin-top: 0px;">-->
-    <div id="contact" class="section contact">
-         <div class="w-container">
-            <h2>LET’s Get in touch</h2>
-            <div class="divider grey"></div>
-            <div class="w-row">
-               <div class="w-col w-col-4">
-                  <div class="icon-wrapper"><img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596744ab52864_map-icon.png" width="44"/></div>
-                  <h3>MEET US IN PERSON</h3>
-                  <p class="contact-text">8776 Juniper Street
-                     <br/>Unit #204
-                     <br/>Merriweather, Ontorio <br/>
-                     Canada
-                  </p>
-               </div>
-               <div class="w-col w-col-4">
-                  <div class="icon-wrapper _2"><img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596ec8fb52865_mail-icon.png" width="70"/></div>
-                  <h3>The traditional way</h3>
-                  <p class="contact-text">Email us
-                     <br/><a href="mailto:contact@minimal.com?subject=Hi!" target="_blank" class="link">contact@minimal.com<br/><br/></a>
-                  </p>
-               </div>
-               <div class="w-col w-col-4">
-                  <div class="icon-wrapper _2"><img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d596c285b52872_heart-icon.png" width="68"/></div>
-                  <h3>Let’s get social</h3>
-                  <a href="#" class="social-wrapper contact-text w-inline-block"><img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d5962bb3b52863_facebook-icon_black.svg" width="14" class="social-icon"/><img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d5966113b52875_twitter-icon_black.svg" width="14" class="social-icon"/><img src="http://uploads.webflow.com/5af5e91622d596fd7eb5284c/5af5e91622d5961ea7b5286a_linkdin-icon-black.svg" width="14" class="social-icon"/></a>
-               </div>
-            </div>
-         </div>
-      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+       <?php require 'footer.php'; ?>
 
       <div id="hideAll">
             <div class="loader">
@@ -713,21 +561,8 @@
             }
            
         }
-        function show(){
+        function show{
             document.getElementById('show').style.display="block";
-        }
-        function open(menu){
-            console.log(menu);
-            document.getElementById(menu).style.display()="block";
-            console.log(menu);
-            /*for(i=0;i<5;i++)
-            {
-                var str="menu"+i;
-                if(str!=menu){
-                    document.getElementById(str).style.display()="none";
-                }
-            }
-            */
         }
         
       </script> 

@@ -1,7 +1,3 @@
-<?php
-    session_start();
-
-?>
 <!DOCTYPE html><!-- This site was created in Webflow. http://www.webflow.com --><!-- Last Published: Sat May 12 2018 17:22:13 GMT+0000 (UTC) -->
 <html data-wf-domain="viss-first-project-7c06bd.webflow.io" data-wf-page="5af5e91622d5967921b52852" data-wf-site="5af5e91622d596fd7eb5284c" data-wf-status="1">
    <head>
@@ -102,34 +98,26 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">My Company Profile</h2>
-            <p>When creating a company profile, you should be as thorough as possible. You should fill all the necessary details required by the analyst prior to the publishing .You will be notified after publishing.</p>
+            <h2 class="heading1">My Company Profile</h2>
+            <p class="normal">When creating a company profile, you should be as thorough as possible. You should fill all the necessary details required by the analyst prior to the publishing .You will be notified after publishing.</p>
           
-                <h3>Service Lines</h3>
+                <h3 class="heading2">Service Lines</h3>
                 <div class="form-container">
                 
                         <div class="row uniform">
                                 <div class="12u$">
-                                    <label for="marketing" >Marketing</label>
+                                    <label for="marketing" class="normal">Marketing</label>
                                     <div class="select-wrapper">
-                                    <select name="catId" id="catId" required>
-                                        <option value="">- Select -</option>
-                                        <?php
-                                            $url =  "https://pure-plains-98928.herokuapp.com/category";
-                                            
-                                            $data = file_get_contents($url);
-
-                                            $json = json_decode($data, true);
-                                            
-                                            
-                                            foreach($json as $obj) {
-                                                // echo "<script>console.log('vipul')</script>"  ;     
-                                                echo "<option value=" . $obj['_id'] . " id=" . $obj['_id'] . ">" . $obj['name'] . "</option>";
-                                            }    
-                                            
-                            
-                                        ?>
-                                        
+                                        <select name="marketing" id="marketing" required>
+                                        <option value="0">- Category -</option>
+                                        <option value="1">Advertisement</option>
+                                        <option value="2">Branding</option>
+                                        <option value="3">Direct marketing</option>
+                                        <option value="4">Public relations</option>
+                                        <option value="6">Market Research</option>
+                                        <option value="7">Marketing stratergy</option>
+                                        <option value="8">Media planning and buying</option>
+                                        <option value="9">Other Marketing</option>
                                     </select>
                                 </div>
                             </div>
@@ -144,8 +132,6 @@
                         </div>
                         <div class="12u$" style="margin-top: 20px;">
                             <ul class="actions">
-                            <input type="hidden" name="type" value="company">
-                            <input type="hidden" name="userId" value="<?php echo $_SESSION['userId']; ?>">
                             <input type="hidden" name="company_id" value="<?php echo $_GET['companyId']; ?>">
                             <li><input type="submit" onclick="saveForm();" value="Next" /></li>
                             </ul>
@@ -192,10 +178,9 @@
         prevScrollpos = currentScrollPos;
         }
         function add(){
-            var value=document.getElementById('catId').value;
-            var div = document.getElementById('marketingdiv');
-            var name = document.getElementById(value); 
-            div.innerHTML= div.innerHTML + "<label for='market' id='valuemarket' >"+ name.innerHTML +"</label><input type='text' name='" + value + "' id='" + value + "' value='' placeholder=''/>";
+            var value=document.getElementById('marketing').value;
+            var div = document.getElementById('marketingdiv'); 
+            div.innerHTML= div.innerHTML + "<label for='market' id='valuemarket' >"+ value +"</label><input type='text' name='" + value + "' id='" + value + "' value='' placeholder=''/>";
         };
 
         function saveForm() {

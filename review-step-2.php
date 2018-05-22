@@ -100,7 +100,7 @@
    <?php require 'header.php'; ?>
       
       <div class="form-container">
-      <h3 class="first">Form</h3>
+      <h3 class="heading1">Form</h3>
         <!-- progressbar -->
         <ul id="progressbar">
                 <li class="active">Step 1</li>
@@ -114,40 +114,40 @@
                
                 <!-- Break -->
                 <div class="12u$">
-                    <label for="background" class="first">Background*</label>
+                    <label for="background" class="normal">Background*</label>
                     <div style="background-color:#e0eee0;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                        <label>Please describe your company and project here*</label>
+                        <label class="normal">Please describe your company and project here*</label>
                     <textarea name="background" id="background" placeholder="Enter your message" rows="6" required></textarea>
                 </div>
                 </div>
                 <!-- Break -->
                 <div class="12u$">
-                    <label class="first">Challange*</label>
+                    <label class="normal">Challange*</label>
                     <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                    <label for="cService">Please describe challanges here*</label>
+                    <label for="cService" class="normal">Please describe challanges here*</label>
                     <textarea name="cService" id="cService" placeholder="Enter your message" rows="6" required></textarea>
                 </div>
                 </div>
                 <!-- Break -->
                 <div class="12u$">
-                        <label for="goal" class="first">Goals*</label>
+                        <label for="goal" class="normal">Goals*</label>
                         <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                        <label>What were your goals this project*</label>
+                        <label class="normal">What were your goals this project*</label>
                         <textarea name="cGoal" id="cGoal" placeholder="Enter your message" rows="6" required></textarea>
                     </div>
                     </div>
                     <!-- Break -->
                 <div class="12u$">
-                        <label class="first">Solutions*</label>
+                        <label class="normal">Solutions*</label>
                         <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                        <label for="vendor">How did you select this vendor*</label>
+                        <label for="vendor" class="normal">How did you select this vendor*</label>
                         <textarea name="vendor" id="vendor" placeholder="Enter your message" rows="6" required></textarea>
                     </div>
                     </div>
                         <!-- Break -->
                 <div class="12u$">
                         <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                        <label for="projectDetail">Describe the project in detail*</label>
+                        <label for="projectDetail" class="normal">Describe the project in detail*</label>
                         <textarea name="projectDetail" id="projectDetail" placeholder="Enter your message" rows="6" required></textarea>
                     </div>
                     </div>
@@ -155,35 +155,35 @@
                 
                 <div class="12u$">
                         <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                        <label for="teamComposition">What was the team composition*</label>
+                        <label for="teamComposition" class="normal">What was the team composition*</label>
                         <textarea name="teamComposition" id="teamComposition" placeholder="Enter your message" rows="6" required></textarea>
                     </div>
                     </div>
                 <!-- Break -->
                 <div class="12u$">
-                        <label class="first">Results and Feedback*</label>
+                        <label class="normal">Results and Feedback*</label>
                         <div style="background-color:#e0eee0;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                            <label for="outcome">Can you share any outcomes from the project that demonstrate progress or success?* </label>
+                            <label for="outcome" class="normal">Can you share any outcomes from the project that demonstrate progress or success?* </label>
                         <textarea name="outcome" id="outcome" placeholder="Enter your message" rows="6" required></textarea>
                     </div>
             </div>
             <div class="12u$">
                     <div style="background-color:#e0eee0;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                    <label for="effective">How effective was the workflow between your team and theirs*</label>
+                    <label for="effective" class="normal">How effective was the workflow between your team and theirs*</label>
                     <textarea name="effective" id="effective" placeholder="Enter your message" rows="6" required></textarea>
                 </div>
                 </div>
             <!-- Break -->
             <div class="12u$">
                     <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                    <label for="keyFeature">What did you find the most impressive about this company*</label>
+                    <label for="keyFeature" class="normal">What did you find the most impressive about this company*</label>
                     <textarea name="keyFeature" id="keyFeature" placeholder="Enter your message" rows="6" required></textarea>
                 </div>
                 </div>
             <!-- Break -->
             <div class="12u$">
                     <div style="background-color:#e0eee0;;height:auto;width: 100% ;z-index:1;padding: 20px;">
-                    <label for="improvements">Are their any areas for improvement*</label>
+                    <label for="improvements" class="normal">Are their any areas for improvement*</label>
                     <textarea name="improvements" id="improvements" placeholder="Enter your message" rows="6" required></textarea>
                 </div>
                 </div>
@@ -192,7 +192,7 @@
                     <div>
                     <label>Ratings*</label>
                     <div style="background: #e0eee0; padding: 20px; margin-bottom: 20px;">
-                        <label for="qRating">How was the <b>qualilty</b> of Company's work?*</label>
+                        <label for="qRating" class="normal">How was the <b>qualilty</b> of Company's work?*</label>
                         <div class="rating">
                             <span><input type="radio" name="qRating" id="qRating5" value="5"><label for="qRating5"></label></span>
                             <span><input type="radio" name="qRating" id="qRating4" value="4"><label for="qRating4"></label></span>
@@ -206,7 +206,7 @@
                         </div>
                     </div>
                     <div style="background: #e0eee0; padding: 20px; margin-bottom: 20px;">
-                        <label for="sRating">How was the <b>scheduling</b> with Company?*</label>
+                        <label for="sRating" class="normal">How was the <b>scheduling</b> with Company?*</label>
                         <div class="rating">
                             <span><input type="radio" name="sRating" id="sRating5" value="5"><label for="sRating5"></label></span>
                             <span><input type="radio" name="sRating" id="sRating4" value="4"><label for="sRating4"></label></span>
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                     <div style="background: #e0eee0; padding: 20px; margin-bottom: 20px;">
-                        <label for="cRating">How was the <b>cost</b> of Company's work?*</label>
+                        <label for="cRating" class="normal">How was the <b>cost</b> of Company's work?*</label>
                         <div class="rating">
                             <span><input type="radio" name="cRating" id="cRating5" value="5"><label for="cRating5"></label></span>
                             <span><input type="radio" name="cRating" id="cRating4" value="4"><label for="cRating4"></label></span>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <div style="background: #e0eee0; padding: 20px; margin-bottom: 20px;">
-                        <label for="rRating">How likely are you to <b>refer</b> Company to a friend?*</label>
+                        <label for="rRating" class="normal">How likely are you to <b>refer</b> Company to a friend?*</label>
                         <div class="rating">
                             <span><input type="radio" name="rRating" id="rRating5" value="5"><label for="rRating5"></label></span>
                             <span><input type="radio" name="rRating" id="rRating4" value="4"><label for="rRating4"></label></span>
@@ -248,7 +248,7 @@
                         </div>
                     </div>
                     <div style="background: #e0eee0; padding: 20px; margin-bottom: 20px;">
-                        <label for="oRating">Give Company an <b>overall rating</b>*</label>
+                        <label for="oRating" class="normal">Give Company an <b>overall rating</b>*</label>
                         <div class="rating">
                             <span><input type="radio" name="oRating" id="oRating5" value="5"><label for="oRating5"></label></span>
                             <span><input type="radio" name="oRating" id="oRating4" value="4"><label for="oRating4"></label></span>

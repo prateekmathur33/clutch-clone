@@ -94,15 +94,15 @@
       <div class="container">
             
                 <div class="form-container">
-                <h2 class="first">Create Portfolio Item</h2>
+                <h2 class="heading1">Create Portfolio Item</h2>
                 <form method="post" action="#">
                         <div class="row uniform">
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="title" >Title*</label>
+                                <label for="title" class="normal" >Title*</label>
                                 <input type="text" name="title" id="title" value="" placeholder="Title" required/>
                             </div>
                             <div class="12u$">
-                                <label for="cprofile" >Company profile*</label>
+                                <label for="cprofile" class="normal"  >Company profile*</label>
                                 <div class="select-wrapper">
                                     <select name="cprofile" id="cprofile" required>
                                         <option value="">- Select -</option>
@@ -110,17 +110,17 @@
                                 </div>
                             </div>
                             <div class="6u 12u$" style="width: 100%;">
-                                <label for="picture" >Picture<br>
+                                <label for="picture" class="normal" >Picture<br>
                                 </label>
                                 <input type="file" name="picture" id="picture" value="" />
                             </div>
                             <div class="6u 12u$" style="width: 100%;">
-                                <label for="video" >Video<br>
+                                <label for="video" class="normal" >Video<br>
                                 </label>
                                 <input type="file" name="video" id="video" value="" />
                             </div>
                             <div class="12u$">
-                                <label>Description*</label>
+                                <label class="normal" >Description*</label>
                                 <textarea name="description" id="description" placeholder="Enter your message" rows="6" required></textarea>
                             </div>
                             <div class="12u$" style="margin-left: 47%;">

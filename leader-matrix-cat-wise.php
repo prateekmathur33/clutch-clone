@@ -132,11 +132,11 @@
    <?php require 'header.php'; ?>
     <div>
       <div style="border-bottom: black;">
-          <h1 class="first" style="text-align: center;">Top Advertising Agencies</h1>
+          <h1 class="heading1" style="text-align: center;">Top Advertising Agencies</h1>
       </div>
       <hr>
       <ul>
-          <li style="display: inline-block;"><label>Sort By</label></li>
+          <li style="display: inline-block;"><label class="normal">Sort By</label></li>
           <li style="display: inline-block;">
                 <select style="width: 250px;">
                     <option value="1">Sponsored</option>
@@ -208,9 +208,9 @@
                 <img src="images/pic01.jpg" style="margin-right: 30px;margin-left: 30px;">
             </div>
             <div>
-                <h4 style="margin-bottom: 0;text-shadow: tomato;color: red;font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: 20px;"><b><u>Brandtuitive</u></b></h4>
+                <h4  class="heading2" style="margin:0px;"><b><u>Brandtuitive</u></b></h4>
             </div>
-            <p>Unexpected thinking</p>
+            <p class="normal">Unexpected thinking</p>
         </div>
         <hr style="margin-bottom: 0px;margin-top: 0px;">
       <div style="width: 100%;margin: 10px;">
@@ -218,26 +218,26 @@
                 
                 <div style="width: 70%;display: inline-block">
                     <div style="border-right:2px solid black;display: inline-block">
-                        <p style="margin: 0;">"Brandtuitive has an exceptional first class team. They're a joy to be around and they work their trails off."</p>
-                        <p style="margin: 0;">Trade Marketer, Large CPG, Corporation</p>
-                        <p style="margin: 0;"><a>contact@brandtuitive.com</a></p>
-                        <p style="margin: 0;">1234567890</p>
+                        <p style="margin: 0;" class="normal">"Brandtuitive has an exceptional first class team. They're a joy to be around and they work their trails off."</p>
+                        <p style="margin: 0;" class="normal">Trade Marketer, Large CPG, Corporation</p>
+                        <p style="margin: 0;" class="normal"><a>contact@brandtuitive.com</a></p>
+                        <p style="margin: 0;" class="normal">1234567890</p>
                     </div>
                    
                 </div>
                 <div style="display: inline-block;padding-top: 0;">
                     <table><tr>
-                        <p style="margin: 5px;"><i class="fa fa-tag"></i>&nbsp;&nbsp;&nbsp; ₹50000+</p>
-                        <p style="margin: 5px;">&nbsp;&nbsp;&nbsp; ₹150-₹199+</p>
-                        <p style="margin: 5px;"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;10-49</p>
-                        <p style="margin: 5px;"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;New York,NY</p>
+                        <p style="margin: 5px;" class="normal"><i class="fa fa-tag"></i>&nbsp;&nbsp;&nbsp; ₹50000+</p>
+                        <p style="margin: 5px;" class="normal">&nbsp;&nbsp;&nbsp; ₹150-₹199+</p>
+                        <p style="margin: 5px;" class="normal"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;10-49</p>
+                        <p style="margin: 5px;" class="normal"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;New York,NY</p>
                         </tr></table>
                     </div>
 
             </div>
             <ul style="display: inline-block;">
-                <li style="height: 50%;padding: 20px 20px 10px 50px;border-bottom: 1px solid silver"><a style="font-size: 20px;">Visit Website</a></li>
-                <li  style="height: 50%;padding: 20px 20px 10px 50px;"><a  style="font-size: 20px;">View Profile</a></li>
+                <li style="height: 50%;padding: 20px 20px 10px 50px;border-bottom: 1px solid silver"><a class="heading2">Visit Website</a></li>
+                <li  style="height: 50%;padding: 20px 20px 10px 50px;"><a class="heading2">View Profile</a></li>
             </ul>
       </div>
     </div>

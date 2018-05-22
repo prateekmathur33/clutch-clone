@@ -98,13 +98,13 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">My Solution profile</h2>
-            <h3>Service Lines</h3>
+            <h2 class="heading1">My Solution profile</h2>
+            <h3 class="heading2">Service Lines</h3>
                 <div class="form-container">
                 <form method="post" action="#">
                         <div class="row uniform">
                                 <div class="12u$">
-                                    <label for="marketing" >Industry focus</label>
+                                    <label for="marketing" class="normal">Industry focus</label>
                                     <div class="select-wrapper">
                                         <select name="marketing" id="marketing" required>
                                         <option value="0">- Category -</option>

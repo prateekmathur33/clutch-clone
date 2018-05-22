@@ -90,16 +90,16 @@
    <?php require 'header.php'; ?>
       
       <div class="form-container">
-      <h3>Add Profile</h3>
+      <h3 class="heading1">Add Profile</h3>
 
         <form method="post" action="https://pure-plains-98928.herokuapp.com/adduser" enctype="multipart/form-data">
             <div class="row uniform">
                 <div class="6u 12u$(xsmall)">
-                        <label for="title" >Headline</label>
+                        <label for="title" class="normal" >Headline</label>
                         <input type="text" name="title" id="title" value="" placeholder="Headline"/>
                 </div>
                 <div class="6u 12u$(xsmall)">
-                        <label for="location" >Location</label>
+                        <label for="location" class="normal" >Location</label>
                         <input type="text" name="location" id="location" value="" placeholder="Location" />
                 </div>
                 <!--
@@ -108,29 +108,29 @@
                         <input type="text" name="phone" id="phone" value="" placeholder="Phone Number" required />
                 </div>-->
                 <div class="6u 12u$(xsmall)">
-                        <label for="industry" >Industry</label>
+                        <label for="industry" class="normal" >Industry</label>
                         <input type="text" name="industry" id="industry" value="" placeholder="Industry" />
                 </div>
 
 
                 <div class="6u 12u$" style="width: 100%;">
-                        <label for="linkdinProfile" >Public Profile URL</label>
+                        <label for="linkdinProfile" class="normal" >Public Profile URL</label>
                         <input type="text" name="linkdinProfile" id="linkdinProfile" value="" placeholder="Public Profile URL" />
                 </div>
                 <div class="6u 12u$" style="width: 100%;">
-                        <label for="twitterProfile" >Twitter Link</label>
+                        <label for="twitterProfile" class="normal" >Twitter Link</label>
                         <input type="text" name="twitterProfile" id="twitterProfile" value="" placeholder="Twitter Link" />
                 </div>
                 <div class="6u 12u$(xsmall)">
                     <img src="images/img-01.png" style="height: 80px; width: 80px;">
                 </div>
                 <div class="6u 12u$(xsmall)">
-                        <label for="imageName" >Profile Picture</label>
+                        <label for="imageName" class="normal" >Profile Picture</label>
                         <input type="file" name="imageName" id="imageName" value="" />
                 </div>
                 <!-- Break -->
                 <div class="12u$">
-                    <label for="bio">Bio</label>
+                    <label for="bio" class="normal" >Bio</label>
                     <textarea name="bio" id="bio" placeholder="Write About Yourself..." rows="6"></textarea>
                 </div>
             

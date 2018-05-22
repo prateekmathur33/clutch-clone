@@ -97,49 +97,49 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">Create Reference</h2>
+            <h2 class="heading1">Create Reference</h2>
                 <div class="form-container">
                 <form method="post" action="#">
                         <div class="row uniform">
                                 <div class="12u$">
-                                        <label for="companyprofile" >Company profile*</label>
+                                        <label for="companyprofile" class="normal">Company profile*</label>
                                         <div class="select-wrapper">
                                             <select name="companyprofile" id="companyprofile" required>
                                                 <option value="">- Select a value -</option>
                                             </select>
                                         </div>
                                     </div>
-                                    <h1>Client Information</h1>
+                                    <h1 class="heading2"><b>Client Information</b></h1>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="fname" >First Name*</label>
+                                <label for="fname" class="normal">First Name*</label>
                                 <input type="text" name="fname" id="fname" value="" placeholder="First Name" required/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="lname" >Last Name*</label>
+                                <label for="lname" class="normal">Last Name*</label>
                                 <input type="text" name="lname" id="lname" value="" placeholder="Last Name" required/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="company" >Company*</label>
+                                <label for="company" class="normal">Company*</label>
                                 <input type="text" name="company" id="company" value="" placeholder="company" required/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="pcompany" >Position at Company</label>
+                                <label for="pcompany" class="normal">Position at Company</label>
                                 <input type="text" name="pcompany" id="pcompany" value="" placeholder="position at company"/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="phno" >Phone Number*</label>
+                                <label for="phno" class="normal">Phone Number*</label>
                                 <input type="text" name="phno" id="phno" value="" placeholder="Phone number" required/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="email" >Email*</label>
+                                <label for="email" class="normal">Email*</label>
                                 <input type="text" name="email" id="email" value="" placeholder="Email" required/>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="city" >City</label>
+                                <label for="city" class="normal">City</label>
                                 <input type="text" name="city" id="city" value="" placeholder="city"/>
                             </div>
                             <div class="12u$">
-                                <label for="country" >Country*</label>
+                                <label for="country" class="normal">Country*</label>
                                 <div class="select-wrapper">
                                     <select name="country" id="country" required>
                                         <option value="">- Select -</option>
@@ -149,7 +149,7 @@
                                 </div>
                             </div>
                             <div class="12u$">
-                                <label for="pcost" >Project Cost</label>
+                                <label for="pcost" class="normal">Project Cost</label>
                                 <div class="select-wrapper">
                                     <select name="pcost" id="pcost">
                                         <option value="">- None -</option>
@@ -164,11 +164,11 @@
                                 </div>
                             </div>
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="plength" >Project Length*(specify </label>
+                                <label for="plength" class="normal">Project Length*(specify </label>
                                 <input type="text" name="plength" id="plength" value="" placeholder="Project Length" maxlength="50" required/>
                             </div>
                             <div class="12u$">
-                                <label>Project Description*</label>
+                                <label class="normal">Project Description*</label>
                                 <textarea name="pdescription" id="pdescription" placeholder="Enter your message" rows="6" required></textarea>
                             </div>
                             <div class="12u$" style="margin-left: 47%;">

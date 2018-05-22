@@ -115,7 +115,7 @@
    <?php require 'header.php'; ?>
       
 <div class="form-container">
-    <h3 class="first">Review</h3>
+    <h3 class="heading1">Review</h3>
 
     <form method="post" action="https://pure-plains-98928.herokuapp.com/addreview" onsubmit="addDate()">
         <!-- progressbar -->
@@ -135,7 +135,7 @@
             <!-- Break -->
             <div class="12u$">
                 <div class="select-wrapper">
-                    <label for="typeOfProject">Select the type of Category*</label>
+                    <label for="typeOfProject" class="normal">Select the type of Category*</label>
                     <select name="typeOfProject" id="typeOfProject" required>
                         <option value="">- Select -</option>
                         <?php
@@ -159,13 +159,13 @@
             </div>
             <!-- Break -->
             <div class="6u 12u$(xsmall)" style="width:100%;">
-                <label for="projectTitle">Project Title*</label>
+                <label for="projectTitle" class="normal">Project Title*</label>
                     <input type="text" name="projectTitle" id="projectTitle" value="" placeholder="Project Title" required/>
             </div>
 
             <div class="12u$">
                 <div class="select-wrapper">
-                    <label for="industry">Select the Industry</label>
+                    <label for="industry" class="normal">Select the Industry</label>
                     <select name="industry" id="industry" required>
                         <option value="">- Select -</option>
                         <option value="Manufacturing">Manufacturing</option>
@@ -178,7 +178,7 @@
             <!--break-->
             <div class="12u$">
                 <div class="select-wrapper">
-                    <label for="cost">Cost Range</label>
+                    <label for="cost" class="normal">Cost Range</label>
                     <select name="cost" id="cost" required>
                         <option value="">- Select -</option>
                         <option value="10000">Less than 10000</option>
@@ -191,7 +191,7 @@
             </div>
             <div style="width:100%;float: left;">      
                     <div class="12u$">
-                        <label>Project start*</label>
+                        <label class="normal">Project start*</label>
                         <div class="select-wrapper projectstart" style="width:40%;">
                             <label for="smonth">Month</label>
                                 <select name="smonth" id="smonth" required>
@@ -211,7 +211,7 @@
                                 </select>
                         </div>
                         <div class="select-wrapper projectstart" style="width:40%;">
-                            <label for="syear">Year</label>
+                            <label for="syear" class="normal">Year</label>
                                 <select name="syear" id="syear" required>
                                     <option value="">- Select -</option>
                                     <option value="">2015</option>
@@ -225,7 +225,7 @@
                 </div>
                 <div style="width:100%;float: left;">      
                         <div class="12u$">
-                                <label>Project end*</label>
+                                <label class="normal">Project end*</label>
                                 <div class="select-wrapper projectstart" style="width:40%;">
                                     <label for="emonth">Month</label>
                                         <select name="emonth" id="emonth" required>
@@ -246,7 +246,7 @@
                                     </select>
                                 </div>
                                 <div class="select-wrapper projectstart" style="width:40%;">
-                                    <label for="eyear">Year</label>
+                                    <label for="eyear" class="normal">Year</label>
                                         <select name="eyear" id="eyear" required>
                                             <option value="">- Select -</option>
                                             <option value="">2015</option>

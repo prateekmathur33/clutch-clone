@@ -97,27 +97,27 @@
                     <li class="active">Step 3</li>
                     <li>Step 4</li>
                 </ul>
-      <h3>Profile of the Reviewer</h3>
-      <p>Basic information about you, the reviewer</p>
+      <h3 class="heading1">Profile of the Reviewer</h3>
+      <p class="heading2">Basic information about you, the reviewer</p>
 
         <form method="post" action="https://pure-plains-98928.herokuapp.com/addreview3/<?php echo $_SESSION['userId']; ?>">
             <div class="row uniform">
                 <div class="6u 12u$(xsmall)" style="width: 100%;">
-                    <label for="fullName" >Fullname</label>
+                    <label for="fullName" class="normal">Fullname</label>
                     <input type="text" name="fullName" id="fullName" value="" placeholder="Full Name"/>
                 </div>
                 <div class="6u$ 12u$(xsmall)" style="width: 100%;">
-                    <label for="position" >Position Title</label>
+                    <label for="position" class="normal">Position Title</label>
                     <input type="text" name="position" id="position" value="" placeholder="Position Title"/>
                 </div>
                 <!-- Break -->
                 <div class="6u$ 12u$(xsmall)" style="width: 100%;">
-                        <label for="companyName" >Company Name</label>
+                        <label for="companyName" class="normal">Company Name</label>
                         <input type="text" name="companyName" id="companyName" value="" placeholder="Company Name"/>
                     </div>
                     <!-- Break -->
                     <div class="12u$">
-                            <label for="companySize" >Company Size</label>
+                            <label for="companySize" class="normal">Company Size</label>
                             <div class="select-wrapper">
                                 <select name="companySize" id="companySize" required>
                                     <option value="">- Category -</option>
@@ -135,7 +135,7 @@
                     <!-- Break -->
                
                 <div class="6u 12u$(xsmall)" style="width: 100%;">
-                        <label for="country" >Country</label>
+                        <label for="country" class="normal">Country</label>
                         <input type="text" name="country" id="country" value="" placeholder="Country" required/>
                 </div>
                 

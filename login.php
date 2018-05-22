@@ -89,14 +89,14 @@
       <div class="container-login100">
             <div class="wrap-login100">
                 <div class="login100-pic js-tilt" data-tilt>
-                    <span class="login100-form-title">
+                    <span class="login100-form-title" class="normal">
                         Sign-in With Linkedin
                     </span>
                     <span class="login-with-linkedin"></span>
                 </div>
 
                 <form class="login100-form validate-form" action="https://pure-plains-98928.herokuapp.com/login" method="post">
-                    <span class="login100-form-title">
+                    <span class="login100-form-title" class="normal">
                         WeDigTech Account Login
                     </span>
 

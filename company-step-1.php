@@ -100,40 +100,40 @@
    <?php require 'header.php'; ?>
 
       <div class="container">
-            <h2 class="first">My Company Profile</h2>
-            <p>When creating a company profile, you should be as thorough as possible. You should fill all the necessary details required by the analyst prior to the publishing .You will be notified after publishing.</p>
+            <h2 class="heading1">My Company Profile</h2>
+            <p class="normal">When creating a company profile, you should be as thorough as possible. You should fill all the necessary details required by the analyst prior to the publishing .You will be notified after publishing.</p>
           
             <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#profile">Profile</a></li>
-              <li><a data-toggle="tab" href="#location">Location</a></li>
-              <li><a data-toggle="tab" href="#details">details</a></li>
+              <li class="active heading2"><a data-toggle="tab" href="#profile">Profile</a></li>
+              <li class="heading2"><a data-toggle="tab" href="#location">Location</a></li>
+              <li class="heading2"><a data-toggle="tab" href="#details">details</a></li>
             </ul>
             <form action="https://pure-plains-98928.herokuapp.com/addcompany" id='comp_profile' method="post" enctype="multipart/form-data">
             <div class="tab-content">
               <div id="profile" class="tab-pane fade in active">
-                <h3>Profile</h3>
+                <h3 class="heading1">Profile</h3>
                 <div class="form-container">
                 
                         <div class="row uniform">
                             <div class="6u 12u$(xsmall)" style="width: 100%;">
-                                <label for="name" >Company Name*</label>
+                                <label for="name" class="normal" >Company Name*</label>
                                 <input type="text" name="name" id="name" value="" placeholder="Company Name" required/>
                             </div>
                             <div class="6u 12u$" style="width: 100%;">
-                                <label for="logo" >Logo<br>
+                                <label for="logo" class="normal">Logo<br>
                                 </label>
                                 <input type="file" name="logo" id="logo" value="" />
                             </div>
                             <div class="6u 12u$(xsmall)">
-                                    <label for="tagline" >Tagline*</label>
+                                    <label for="tagline" class="normal" >Tagline*</label>
                                     <input type="text" name="tagline" id="tagline" value="" placeholder="Tagline" required/>
                             </div>
                             <div class="6u 12u$(xsmall)">
-                                    <label for="founded" >Founded</label>
+                                    <label for="founded" class="normal">Founded</label>
                                     <input type="text" name="founded" id="founded" value="" placeholder="Founded"/>
                             </div>
                             <div class="12u$">
-                                    <label for="noOfEmp" >Employees*</label>
+                                    <label for="noOfEmp" class="normal">Employees*</label>
                                     <div class="select-wrapper">
                                         <select name="noOfEmp" id="noOfEmp" required>
                                             <option value="">- Category -</option>
@@ -149,7 +149,7 @@
                                     </div>
                                 </div>
                             <div class="12u$">
-                                    <label for="minProjectPrice" >Minimum Project Size</label>
+                                    <label for="minProjectPrice" class="normal">Minimum Project Size</label>
                                     <div class="select-wrapper">
                                         <select name="minProjectPrice" id="minProjectPrice"/>
                                             <option value="">- None -</option>
@@ -164,8 +164,8 @@
                                     </div>
                                 </div>
                                 <div class="12u$">
-                                        <label for="avgPricePerHour" >Avg Hourly rate</label>
-                                        <label>enter your average hourly rate</label>
+                                        <label for="avgPricePerHour" class="normal">Avg Hourly rate</label>
+                                        <label class="normal">enter your average hourly rate</label>
                                         <div class="select-wrapper">
                                             <select name="avgPricePerHour" id="avgPricePerHour">
                                                 <option value="">- None -</option>
@@ -180,38 +180,38 @@
                                         </div>
                                     </div>
                                     <div class="6u 12u$(xsmall)">
-                                        <label for="websiteLink" >Website*</label>
+                                        <label for="websiteLink" class="normal">Website*</label>
                                         <input type="text" name="websiteLink" id="websiteLink" value="" placeholder="Company Name" required/>
                                     </div>
                                     <div class="6u 12u$(xsmall)">
-                                        <label for="emailTechSupport" >Email*</label>
+                                        <label for="emailTechSupport" class="normal">Email*</label>
                                         <input type="text" name="emailTechSupport" id="emailTechSupport" value="" placeholder="Email" required/>
                                     </div>
                                     <div class="6u 12u$(xsmall)">
-                                        <label for="emailAdmin" >Admin Email</label>
+                                        <label for="emailAdmin" class="normal">Admin Email</label>
                                         <input type="text" name="emailAdmin" id="emailAdmin" value="" placeholder="Admin Email"/>
                                     </div>
                                     <div class="6u 12u$(xsmall)">
-                                        <label for="twitterProfile" >Twitter</label>
+                                        <label for="twitterProfile" class="normal">Twitter</label>
                                         <input type="text" name="twitterProfile" id="twitterProfile" value="" placeholder="Twitter"/>
                                     </div>
                                     <div class="6u 12u$(xsmall)">
-                                        <label for="facebookProfile" >Facebook</label>
+                                        <label for="facebookProfile" class="normal">Facebook</label>
                                         <input type="text" name="facebookProfile" id="facebookProfile" value="" placeholder="Facebook"/>
                                     </div>
                                     <div class="12u$">
-                                        <label>Company Summary*</label>
+                                        <label class="normal">Company Summary*</label>
                                         <textarea name="summary" id="summary" placeholder="Enter your message" rows="6" required></textarea>
                                     </div>
                                     <!-- Break -->
                                     <div class="12u$">
-                                            <label>Key clients</label>
+                                            <label class="normal">Key clients</label>
                                             <textarea name="client" id="client" placeholder="Enter your message" rows="6"></textarea>
                                         </div>
                                         <!-- Break -->
                                         <div class="12u$" style="margin-left: 47%;">
                                             <ul class="actions">
-                                            <li><a data-toggle="tab" href="#location"><button>Save & Next</button></a></li>
+                                            <li><a data-toggle="tab" href="#location"><button class="normal">Save & Next</button></a></li>
                                             </ul>
                                         </div>
                             </div>
@@ -220,11 +220,11 @@
 
               </div>
               <div id="location" class="tab-pane fade">
-                <h3>Location</h3>
+                <h3 class="heading1">Location</h3>
                 <div class="form-container">
                                 <div class="row uniform">
                                         <div class="12u$">
-                                                <label for="country" >Country</label>
+                                                <label for="country" class="normal">Country</label>
                                                 <div class="select-wrapper">
                                                     <select name="country" id="country">
                                                         <option value="">- None -</option>
@@ -235,28 +235,28 @@
                                                 </div>
                                         </div>
                                         <div class="6u 12u$(xsmall)">
-                                            <label for="street" >Street</label>
+                                            <label for="street" class="normal">Street</label>
                                             <input type="text" name="street" id="street" value="" placeholder="Street"/>
                                          </div>
                                          <div class="6u 12u$(xsmall)">
-                                            <label for="city" >City</label>
+                                            <label for="city" class="normal">City</label>
                                             <input type="text" name="city" id="city" value="" placeholder="city"/>
                                          </div>
                                          <div class="6u 12u$(xsmall)">
-                                            <label for="state" >State</label>
+                                            <label for="state" class="normal">State</label>
                                             <input type="text" name="state" id="state" value="" placeholder="State"/>
                                          </div>
                                          <div class="6u 12u$(xsmall)">
-                                            <label for="postalCode" >Postal Code</label>
+                                            <label for="postalCode" class="normal">Postal Code</label>
                                             <input type="text" name="postalCode" id="postalCode" value="" placeholder="Postal Code"/>
                                          </div>
                                          <div class="6u 12u$(xsmall)">
-                                            <label for="mobNo">Phone number</label>
+                                            <label for="mobNo" class="normal">Phone number</label>
                                             <input type="text" name="mobNo" id="mobNo" value="" placeholder="Phone Number"/>
                                          </div>
                                          <div class="12u$" style="margin-left: 47%;">
                                             <ul class="actions">
-                                            <li><a data-toggle="tab" href="#details"><button>Save & Next</button></a></li>
+                                            <li><a data-toggle="tab" href="#details"><button class="normal">Save & Next</button></a></li>
                                             </ul>
                                         </div>
                                          </div>
@@ -264,21 +264,21 @@
                 </div>
               </div>
               <div id="details" class="tab-pane fade">
-                <h3>Profile Details</h3>
+                <h3 class="heading1">Profile Details</h3>
                 <div class="form-container">
                                 <div class="row uniform">
                                     <div class="12u$">
-                                        <label>Certifications(Maximun 1000 characters)</label>
+                                        <label class="normal">Certifications(Maximun 1000 characters)</label>
                                         <textarea name="cert" id="cert" placeholder="" rows="6" maxlength="1000"></textarea>
                                     </div>
                                     <!-- Break -->
                                     <div class="12u$">
-                                        <label>Accolades</label>
+                                        <label class="normal">Accolades</label>
                                         <textarea name="accolades" id="accolades" placeholder="" rows="6" maxlength="1000"></textarea>
                                     </div>
                                     <!-- Break -->
                                     <div class="12u$">
-                                        <label>Detailed Description</label>
+                                        <label class="normal">Detailed Description</label>
                                         <textarea name="detailedDes" id="detailedDes" placeholder="description" rows="6" maxlength="1000"></textarea>
                                     </div>
                                     <!-- Break -->
