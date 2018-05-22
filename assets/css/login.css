@@ -169,11 +169,8 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #9053c7;
-  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
-  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  background-image: linear-gradient(180deg, rgba(255, 228, 38, 0.7), rgba(209, 140, 100, 0.7)), url(../../images/Mega-Menu.jpg);
+  background-size: cover;
 }
 
 .wrap-login100 {
@@ -181,7 +178,7 @@ iframe {
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -222,7 +219,7 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: Poppins-Bold;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 24px;
   color: #333333;
   line-height: 1.2;

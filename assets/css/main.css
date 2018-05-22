@@ -25,6 +25,8 @@
 
 	body {
 		line-height: 1;
+		background-image: linear-gradient(180deg, rgba(255, 228, 38, 0.7), rgba(209, 140, 100, 0.7)), url(../../images/Mega-Menu.jpg);
+    	background-size: cover;
 	}
 
 	ol, ul {
@@ -1567,9 +1569,6 @@
 
 	}
 
-	body {
-		background: #fff;
-	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -1670,18 +1669,6 @@
 		font-size: 1.85em;
 		font-weight: 300;
 	}
-
-	h3 {
-		font-size: 1.75em;
-	}
-
-		@media screen and (max-width: 480px) {
-
-			h3 {
-				font-size: 1.25em;
-			}
-
-		}
 
 	h4 {
 		font-size: 1.5em;
@@ -2031,11 +2018,11 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #6cc091;
+		background: #e6e6e6;
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #8dcca9;
-		color: #fff;
+		border: solid 2px #e6e6e6;
+		color: #666666;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2064,10 +2051,17 @@
 
 	/*EDit profile*/
 	.form-container {
-	width: 50%;
+		width: 50%;
 		display: block;
-		margin: 100px auto;
+		margin-top: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
 		padding: 50px;
+		border-radius: 10px;
+		background-color: #fff; 
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		justify-content: space-between;
 	}
 
 
@@ -2181,27 +2175,27 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #c4e5d3 !important;
+		color: #666666 !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #c4e5d3 !important;
+		color: #666666 !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #c4e5d3 !important;
+		color: #666666 !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #c4e5d3 !important;
+		color: #666666 !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #c4e5d3 !important;
+		color: #666666 !important;
 		opacity: 1.0;
 	}
 
